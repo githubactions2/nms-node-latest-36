@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var appRoot='/home/nms-backend/actions-runner/_work/nms_node/nms_node'
+var appRoot='/'
 var authCtrl = require('../modules/Controllers/auth/Controllers/authCntrl');
 var checkuser=require('../modules/Controllers/auth/Controllers/accessCtrl')
 
